@@ -13,7 +13,9 @@ function Lesson16() {
     setCount((prevValue) => prevValue + 1);
   };
 
-  return <Lesson16Wrapper><Counter countValue={count} onMinusClick={onMinus} onPlusClick={onPlus} /></Lesson16Wrapper>
+  return <Lesson16Wrapper><Counter /></Lesson16Wrapper>
+  // Вариант каунтера, который контролируется родительским компонентом (так работал компонент до Homework 16)
+  // return <Lesson16Wrapper><Counter countValue={count} onMinusClick={onMinus} onPlusClick={onPlus} /></Lesson16Wrapper>
 }
 
 export default Lesson16;
