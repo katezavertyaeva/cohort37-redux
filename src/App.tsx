@@ -2,6 +2,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 //Lessons
 // import Lesson16 from "./lessons/Lesson16/Lesson16"
+import Lesson19 from 'lessons/Lesson19/Lesson19'
+
 
 //Homeworks
 // import Homework16 from "homeworks/Homework16/Homework16"
@@ -21,7 +23,7 @@ function App() {
       {/* <Lesson16 /> */}
       {/* <Homework16 /> */}
       {/* <Homework17 /> */}
-      {/* Lesson18 - Layout и его вложенные рауты */}
+      {/* Lesson18(Homework18) - Layout и его вложенные рауты */}
       {/* <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -29,7 +31,8 @@ function App() {
           <Route path="*" element="Page Not Found" />
         </Routes>
       </Layout> */}
-      <Consultation7 />
+      {/* <Consultation7 /> */}
+      <Lesson19/>
     </BrowserRouter>
   )
 }

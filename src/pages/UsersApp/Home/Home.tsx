@@ -17,8 +17,13 @@ function Home() {
       age: "",
       jobTitle: "",
     },
-    onSubmit: values => {
-      dispatch(usersSliceActions.addUser({...values, id: v4()}))
+    onSubmit: (values, helpers) => {
+      if (!!values.firstlastName && !!values.age && !!values.jobTitle) {
+        dispatch(usersSliceActions.addUser({ ...values, id: v4() }))
+      } else {
+        alert('Please fill in all the fields')
+      }
+      helpers.resetForm()
     },
   })
 
