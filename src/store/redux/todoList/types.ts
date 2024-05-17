@@ -1,0 +1,3 @@
+interface todoListStateSlice {
+  todoList: string []
+}

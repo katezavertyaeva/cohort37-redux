@@ -13,6 +13,7 @@ export default defineConfig({
       'homeworks': path.resolve(__dirname, 'src/homeworks'),
       'lessons': path.resolve(__dirname, 'src/lessons'),
       'pages': path.resolve(__dirname, 'src/pages'),
+      'consultations': path.resolve(__dirname, 'src/consultations'),
       'store': path.resolve(__dirname, 'src/store'),
       'styles': path.resolve(__dirname, 'src/styles')
     },
