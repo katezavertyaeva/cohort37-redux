@@ -2,20 +2,22 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 //Lessons
 // import Lesson16 from "./lessons/Lesson16/Lesson16"
-import Lesson19 from 'lessons/Lesson19/Lesson19'
+// import Lesson19 from 'lessons/Lesson19/Lesson19'
 
 
 //Homeworks
 // import Homework16 from "homeworks/Homework16/Homework16"
 // import Homework17 from "homeworks/Homework17/Homework17"
+import Homework19 from 'homeworks/Homework19/Homework19'
+
 
 //Consultations
-import Consultation7 from 'consultations/Consultation7/Consultation7'
+// import Consultation7 from 'consultations/Consultation7/Consultation7'
 
 
-import Layout from "pages/UsersApp/Layout/Layout"
-import Home from "pages/UsersApp/Home/Home"
-import Users from "pages/UsersApp/Users/Users"
+// import Layout from "pages/UsersApp/Layout/Layout"
+// import Home from "pages/UsersApp/Home/Home"
+// import Users from "pages/UsersApp/Users/Users"
 
 function App() {
   return (
@@ -32,7 +34,8 @@ function App() {
         </Routes>
       </Layout> */}
       {/* <Consultation7 /> */}
-      <Lesson19/>
+      {/* <Lesson19 /> */}
+      <Homework19 />
     </BrowserRouter>
   )
 }

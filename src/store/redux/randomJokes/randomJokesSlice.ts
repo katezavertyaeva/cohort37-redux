@@ -22,7 +22,7 @@ export const randomJokesSlice = createAppSlice({
 
       if (!response.ok) {
         //выполняем переход к мини редьюсеру (обработчик - метод) rejected
-        thunkApi.rejectWithValue(result)
+        return thunkApi.rejectWithValue(result)
       } else {
         //выполняем переход к мини редьюсеру (обработчик - метод) fulfilled
         return result
